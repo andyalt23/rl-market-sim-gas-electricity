@@ -1,0 +1,54 @@
+# --- General OS/editor noise ---
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+*.bak
+*.log
+
+# --- VS Code ---
+.vscode/
+
+# --- Julia ---
+.julia/
+*.ji
+*.cov
+# Manifest.toml
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# --- Python aux (if any) ---
+.venv/
+__pycache__/
+.dist/
+.pytest_cache/
+
+# --- Data & outputs (large or generated) ---
+# Global outputs
+output/
+**/output/
+
+# Project-specific data & outputs
+1_categorize_up/data/
+1_categorize_up/data/
+1_categorize_up/output/
+2_market_simulation/data/
+2_market_simulation/output/
+2_market_simulation/_Fab-code/
+
+# Files by type
+**/*.jld2
+**/*.jdl2
+**/*.zip
+**/*.7z
+**/*.tar
+**/*.gz
+**/*.csv
+
+# --- Images
+*.png
+*.jpg
+*.jpeg
+*.pdf
